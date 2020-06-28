@@ -1,0 +1,9 @@
+[credentials]
+password=
+smtp=smtp.gmail.com
+port=587
+sender=xxx@gmail.com
+
+[target]
+recipient=yyy@gmail.com
+subject='Termin available!'
