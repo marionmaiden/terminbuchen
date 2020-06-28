@@ -37,14 +37,14 @@ def checkTermin(email):
             if len(termin) > 0:
                 termins += "<b>" + month.find(class_="month").text + "</b>: " + pretty(termin) + "<br>"
                 found = True
-                # email.sendEmail("ll")
 
 
         if found:
             print(termins)
             email.sendEmail(termins)
         else:
-            time.sleep(60)
+            print("Termin not found retrying in 100s")
+            time.sleep(100)
 
 
 
