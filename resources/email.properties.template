@@ -7,3 +7,9 @@ sender=xxx@gmail.com
 [target]
 recipient=yyy@gmail.com
 subject='Termin available!'
+
+[urls]
+# Please use %% when need a %
+urlArray=[
+  "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=327537&dienstleisterlist=122210,122217,122219,122227&herkunft=http%%3A%%2F%%2Fservice.berlin.de%%2Fdienstleistung%%2F327537%%2F",
+  "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=327537&dienstleisterlist=122231,122238,122243&herkunft=http%%3A%%2F%%2Fservice.berlin.de%%2Fdienstleistung%%2F327537%%2F"]
