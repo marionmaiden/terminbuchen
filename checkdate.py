@@ -42,9 +42,11 @@ def checkTermin(email):
         if found:
             print(termins)
             email.sendEmail(termins)
-        else:
-            print("Termin not found retrying in 100s")
-            time.sleep(100)
+
+        found = False
+        termins = ""
+        print("Termin not found retrying in 100s")
+        time.sleep(100)
 
 
 
